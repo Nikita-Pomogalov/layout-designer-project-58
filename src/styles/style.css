@@ -98,6 +98,8 @@ body{
   .white-back{
     background-color: #f5f4f0;
     z-index: 1;
+    width: 100%;
+    height: 100%;
   }
 
   .header-title{
@@ -186,6 +188,10 @@ body{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+  }
+
+  .back-video{
+    background-color: #fff;
   }
 
 
