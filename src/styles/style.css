@@ -14,6 +14,7 @@ body{
   font-size: 16px;
   line-height: 1.6em;
   color: #2A2626;
+  
   }
 
   .color-white{
@@ -25,9 +26,17 @@ body{
   }
 
   .container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     max-width: 1110px;
-    margin: 100px auto;
+    margin: 0px auto;
+    padding: 100px auto;
   }
+
+
+
 
   .back::before{
     content: "";
@@ -39,7 +48,6 @@ body{
     width: 100%;
     height: 100%;
     opacity: 0.1;
-    z-index: -1;
     
   }
 
@@ -74,18 +82,18 @@ body{
     font-family: "OpenSans", sans-serif;
   }
 
-  .position{
-    position: relative;
-  }
 
-
-  .container-flex{
+  
+  .row {
     display: flex;
-    justify-content: space-evenly;
-    margin-left: 20px;
-    padding-bottom: 150px;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-left: 50px ;
   }
 
+  .gap{
+    gap: 30px;
+  }
 
   .white-back{
     background-color: #f5f4f0;
@@ -93,28 +101,27 @@ body{
   }
 
   .header-title{
+    position: relative;
+    right: 255px;
+    margin-bottom: 200px;
     padding-top: 100px;
-    padding-left: 300px;
-    margin-bottom: 185px;
-    
+    z-index: 500;
   }
 
 
-  .right-side{
-    padding-right: 450px;
-  }
 
   .marg-40{
     margin-bottom: 40px;
   }
 
-  .left-side{
-    padding-left: 250px;
-  }
 
   
   .black{
     color: #2A2626;
+  }
+
+  .right-main{
+    padding-bottom: 100px;
   }
 
   .more-details{
@@ -122,7 +129,7 @@ body{
     box-sizing: border-box;
 
     width: 148px;
-    padding: 15px 0 12px;
+    padding: 12px 24px;
     font-weight: bold;
     font-size: 16px;
     font-family: "OpenSans", sans-serif;
@@ -141,13 +148,14 @@ body{
     background: #ea7600;
   }
 
+
   .image {
     position: absolute;
     height: 525px;
     top: 55px;
-    right: 235px;
+    right: -270px;
+    z-index: 400;
   }
-
 
 
   
@@ -156,21 +164,20 @@ body{
 
 
   .header-video{
-    padding-top: 150px;
+    padding-top: 100px;
     margin-bottom: 30px;
     text-align: center;
   }
 
   .paragraph-video{
     text-align: center;
-    
   }
 
   .video{
     filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
     position: relative;
     text-align: center;
-    top: 20px;
+    margin-bottom: -20px;
   }
 
 
@@ -196,8 +203,9 @@ body{
   .header-nav{
     display: block;
     text-align: left;
+    width: 350px;
+    text-align: left;
     font-size: 52px;
-    
   }
 
 
@@ -205,13 +213,9 @@ body{
   .container-flex-for-nav{
     list-style-type: none;
     display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    background-color: #42413c;
-    margin-left: 225px;
-    padding-top: 150px;
-    width: 70%;
-    padding-bottom: 100px;
+    flex-flow: row wrap;
+    padding-top: 200px;
+    gap: 1rem;
   }
 
 
@@ -221,11 +225,10 @@ body{
 
 
   .card{
-    display: inline-block;
+    display: block;
     background-color: #f5f4f0;
     text-align: left;
-    padding: 20px;
-    margin-top: 20px;
+    padding: 24px;
     width: 350px;
     text-decoration: none;
   }
@@ -255,7 +258,7 @@ body{
 
   
 
-
+  
 
   .before-header{
     color: #908d8b;
@@ -267,7 +270,11 @@ body{
 
   .img-IKEA{
     z-index: 100;
-    margin: 0 710px 0 0;
+    margin: 0 480px 0 0;
+  }
+
+  .vert-alg{
+    vertical-align: middle;
   }
 
 
@@ -279,7 +286,7 @@ body{
 
 
   .description-IKEA{
-    margin: -435px 0 0 380px;
+    margin: -435px 0 0 570px;
   }
 
   .p-100{
@@ -298,11 +305,11 @@ body{
     color: #fff;
     background-color: #b09a81;
     padding: 10px;
+    margin-left: 70px;
     font-weight: bold;
-    margin-left: -90px;
     margin-top: 100px;
     margin-bottom: 10px;
-    width: 1110px;
+    width: 100%;
   }
 
 
@@ -311,7 +318,7 @@ body{
 
 
   .left-ikea{
-    margin-left: -200px;
+    margin-left: 20px;
   }
 
   .right-ikea{
@@ -321,7 +328,7 @@ body{
   .container-flex-1-2{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-evenly;
   }
 
    
@@ -343,6 +350,9 @@ body{
   }
 
 
+  .img-opt{
+    margin-left: 30px;
+  }
 
   .explain-opt{
     font-size: 34px;
@@ -352,7 +362,7 @@ body{
 
 
   .description-opt{
-    margin-left: -160px;
+    margin-left: 20px;
   }
 
   .header-2{
@@ -362,16 +372,16 @@ body{
     background-color: #fff;
     padding: 10px;
     font-weight: bold;
-    margin-left: -90px;
+    margin-left: 70px;
     margin-top: 100px;
     margin-bottom: 10px;
-    width: 1110px;
+    width: 100%;
   }
 
 
 
   .left-opt{
-    margin-left: -190px;
+    margin-left: 25px;
   }
 
   .right-opt{
@@ -385,25 +395,36 @@ body{
 
 
   .img-news{
-    margin-left: -150px;
+    position: absolute;
+    right: 505px;
     z-index: 300;
   }
 
 
-
-
-
-  .explain-IKEA{
-    font-size: 34px;
-    font-family: "Neucha", cursive;
-    line-height: 1.2em;
+  .description-news{
+    margin-left: 630px;
   }
+
+
+
+  
+
+  .description-notprice{
+    margin-left: -10px;
+  }
+
+
+  .left-notprice{
+    margin-left: -10px;
+  }
+
+
 
 
 
 
   .left-error{
-    margin-left: -235px;
+    margin-left: -40px;
   }
 
   .right-error{
@@ -413,7 +434,7 @@ body{
 
 
   .description-error{
-    margin: -435px 0 0 530px;
+    margin: -435px 0 0 635px;
   }
 
 
@@ -440,10 +461,7 @@ body{
     margin-left: 300px;
   }
 
-  .container-footer{
-    display: flex;
-    justify-content: center;
-  }
+
 
   .enter-footer{
     padding: 15px;
@@ -486,7 +504,3 @@ body{
   .service{
     text-decoration: underline;
   }
-
-
-
-
