@@ -452,6 +452,7 @@ body{
   .back-footer{
     background-color: #42413c;
     margin-left: 300px;
+    z-index: 700;
   }
 
   .center{
