@@ -330,6 +330,21 @@ body{
   }
 
 
+
+  .container-opt{
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    min-height: 900px;
+    max-width: 1110px;
+    margin: 0px auto;
+    padding: 100px 0;
+  }
+
+
   .header-2{
     font-size: 14px;
     font-family: "OpenSans", sans-serif;
