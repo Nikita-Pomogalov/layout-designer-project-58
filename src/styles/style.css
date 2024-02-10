@@ -9,12 +9,23 @@
   src: url(../fonts/neucha.ttf);
 }
 
-body{
+
+html{
+  font-weight: 400;
   font-family: "OpenSans", sans-serif;
   font-size: 16px;
   line-height: 1.6em;
   color: #2A2626;
-  
+}
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
   }
 
   .color-white{
@@ -27,15 +38,21 @@ body{
 
   .container{
     position: relative;
+
     display: flex;
     flex-direction: column;
-    align-items: center;
+    justify-content: space-between;
+
+    min-height: 900px;
     max-width: 1110px;
     margin: 0px auto;
-    padding: 100px auto;
+    padding: 100px 0;
   }
 
 
+  .back{
+    position: relative;
+  }
 
 
   .back::before{
@@ -43,7 +60,7 @@ body{
 
     background-image: url(../img/background.png);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     position: absolute;
     width: 100%;
     height: 100%;
@@ -59,14 +76,16 @@ body{
     color: #fe8a02;
     line-height: 1.2em;
     margin: 0;
+    z-index: 1;
   }
 
   h1{
-    font-size: 72px;
+    font-size: 4.5rem;
   }
 
   h2{
     font-size: 60px;
+    z-index: 100;
   }
 
   h3{
@@ -83,12 +102,14 @@ body{
   }
 
 
+
+  .header-title{
+    letter-spacing: 1.7px;
+  }
   
   .row {
     display: flex;
     justify-content: space-between;
-    flex-direction: row;
-    margin-left: 50px ;
   }
 
   .gap{
@@ -100,14 +121,6 @@ body{
     z-index: 1;
     width: 100%;
     height: 100%;
-  }
-
-  .header-title{
-    position: relative;
-    right: 255px;
-    margin-bottom: 200px;
-    padding-top: 100px;
-    z-index: 500;
   }
 
 
@@ -122,9 +135,6 @@ body{
     color: #2A2626;
   }
 
-  .right-main{
-    padding-bottom: 100px;
-  }
 
   .more-details{
     display: inline-block;
@@ -156,46 +166,30 @@ body{
     height: 525px;
     top: 55px;
     right: -270px;
-    z-index: 400;
-    background-size: cover;
   }
 
 
-  
-  
+  .gap-1{
+    gap: 1rem;
+  }
 
-
-
-  .header-video{
-    padding-top: 100px;
-    margin-bottom: 30px;
+  .section-video{
     text-align: center;
+
+    align-items: center;
+
+    height: 900px;
   }
 
-  .paragraph-video{
-    text-align: center;
-  }
 
   .video{
     filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
-    position: relative;
-    text-align: center;
-    margin-bottom: -20px;
   }
 
-
-
-  .container-for-video{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-  }
 
   .back-video{
     background-color: #fff;
   }
-
-
 
 
   #menu{
@@ -203,18 +197,8 @@ body{
   }
 
   .back-nav{
-    margin-top: -50px;
+    margin-top: -100px;
   }
-
-
-  .header-nav{
-    display: block;
-    text-align: left;
-    width: 350px;
-    text-align: left;
-    font-size: 52px;
-  }
-
 
 
   .container-flex-for-nav{
@@ -226,12 +210,13 @@ body{
   }
 
 
-  .first{
-    margin-left: 60px;
+
+  h2.card{
+    font-size: 52px;
+    width: 350px;
   }
 
-
-  .card{
+  a.card{
     display: block;
     background-color: #f5f4f0;
     text-align: left;
@@ -240,7 +225,7 @@ body{
     text-decoration: none;
   }
 
-  .card:hover{
+  a.card:hover{
     background-color: #908d8b;
     position: relative;
     top: -15px;
@@ -260,11 +245,6 @@ body{
     font-size: 34px;
   }
 
-
-
-
-  
-
   
 
   .before-header{
@@ -275,30 +255,15 @@ body{
     font-family: "Neucha", cursive;
   }
 
-  .img-IKEA{
-    z-index: 100;
-    margin: 0 480px 0 0;
-  }
+
 
   .vert-alg{
     vertical-align: middle;
   }
 
 
-  .container-flex-1{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-  }
 
 
-  .description-IKEA{
-    margin: -435px 0 0 570px;
-  }
-
-  .p-100{
-    padding: 100px 0;
-  }
 
   .explain-IKEA{
     font-size: 34px;
@@ -312,34 +277,22 @@ body{
     color: #fff;
     background-color: #b09a81;
     padding: 10px;
-    margin-left: 70px;
     font-weight: bold;
     margin-top: 100px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     width: 100%;
   }
 
 
-  
 
-
-
-  .left-ikea{
-    margin-left: 20px;
-  }
-
-  .right-ikea{
+  .right-side{
     margin-left: 30px;
   }
 
-  .container-flex-1-2{
+  .container-flex{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
   }
-
-   
-
 
 
 
@@ -357,20 +310,12 @@ body{
   }
 
 
-  .img-opt{
-    margin-left: 30px;
-  }
-
   .explain-opt{
     font-size: 34px;
     font-family: "Neucha", cursive;
     line-height: 1.2em;
   }
 
-
-  .description-opt{
-    margin-left: 20px;
-  }
 
   .header-2{
     font-size: 14px;
@@ -379,71 +324,10 @@ body{
     background-color: #fff;
     padding: 10px;
     font-weight: bold;
-    margin-left: 70px;
     margin-top: 100px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     width: 100%;
   }
-
-
-
-  .left-opt{
-    margin-left: 25px;
-  }
-
-  .right-opt{
-    margin-left: 30px;
-  }
-
-
-
-
-
-
-
-  .img-news{
-    position: absolute;
-    right: 505px;
-    z-index: 300;
-  }
-
-
-  .description-news{
-    margin-left: 630px;
-  }
-
-
-
-  
-
-  .description-notprice{
-    margin-left: -10px;
-  }
-
-
-  .left-notprice{
-    margin-left: -10px;
-  }
-
-
-
-
-
-
-  .left-error{
-    margin-left: -40px;
-  }
-
-  .right-error{
-    margin-left: 30px;
-  }
-
-
-
-  .description-error{
-    margin: -435px 0 0 635px;
-  }
-
 
 
 
@@ -462,7 +346,6 @@ body{
 
   .back-footer-2{
     background-color: #42413c;
-    margin-left: 300px;
     z-index: 700;
   }
 
@@ -470,9 +353,19 @@ body{
     text-align: center;
     font-size: 14px;
     margin-top: 60px;
-    margin-left: 300px;
+
   }
 
+  .container-footer{
+    position: relative;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    max-width: 1110px;
+    margin: 0px auto;
+  }
 
 
   .enter-footer{
@@ -507,11 +400,13 @@ body{
     color: #fff;
   }
 
+  .p-100{
+    padding: 100px 0;
+  }
+
   .s-18{
     font-size: 18px;
   }
-
-
 
   .service{
     text-decoration: underline;
