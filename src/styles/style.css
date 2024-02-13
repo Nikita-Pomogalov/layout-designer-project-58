@@ -52,6 +52,11 @@ body{
   }
 
 
+  .main-title{
+    height: 914px;
+  }
+
+
   .back{
     position: relative;
   }
@@ -157,6 +162,7 @@ body{
     text-align: center;
     text-decoration: none;
     cursor: pointer;
+    margin-bottom: -20px;
 
     z-index: 2;
   }
@@ -263,10 +269,11 @@ body{
   }
 
 
-
   .vert-alg{
     vertical-align: middle;
   }
+
+
 
   .right-description-ikea{
     margin-right: 80px;
