@@ -29,9 +29,6 @@ body{
   overflow-x: hidden;
   }
   
-  .m-20{
-    margin-bottom: -20px;
-  }
 
   .color-white{
     color: #fff;
@@ -48,7 +45,7 @@ body{
     flex-direction: column;
     justify-content: space-between;
 
-    min-height: 900px;
+    min-height: 914px;
     max-width: 1110px;
     margin: 0px auto;
     padding: 100px 0;
@@ -273,6 +270,34 @@ body{
 
 
 
+  .right-description-ikea{
+    margin-right: 70px;
+  }
+
+  .right-description-news{
+    margin-right: 40px;
+  }
+
+  .right-description-errors{
+    margin-right: 30px;
+  }
+  
+  .side-errors{
+    margin-right: 50px;
+  }
+
+  .side-ikea{
+    margin-right: 20px;
+  }
+
+  .side-hyber{
+    margin-right: 10px;
+  }
+
+  .side-footer{
+    margin-left: 40px;
+  }
+
 
   .explain-IKEA{
     font-size: 34px;
@@ -336,6 +361,7 @@ body{
 
     display: flex;
     flex-direction: column;
+    
 
     min-height: 900px;
     max-width: 1110px;
