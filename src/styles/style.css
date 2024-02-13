@@ -45,7 +45,7 @@ body{
     flex-direction: column;
     justify-content: space-between;
 
-    min-height: 900px;
+    
     max-width: 1110px;
     margin: 0px auto;
     padding: 100px 0;
@@ -121,6 +121,7 @@ body{
   .row {
     display: flex;
     justify-content: space-between;
+
   }
 
   .gap{
@@ -287,8 +288,14 @@ body{
     margin-right: 30px;
   }
   
+
+  .m-0{
+    margin: 0;
+  }
+
   .side-errors{
     margin-right: 50px;
+    flex-basis: 50%;
   }
 
   .side-ikea{
@@ -388,7 +395,8 @@ body{
   }
 
   .h-880{
-    min-height: 880px;
+    min-height: 800px;
+    max-height: 880px;
   }
 
 
