@@ -45,7 +45,7 @@ body{
     flex-direction: column;
     justify-content: space-between;
 
-    min-height: 855px;
+    min-height: 900px;
     max-width: 1110px;
     margin: 0px auto;
     padding: 100px 0;
@@ -268,8 +268,6 @@ body{
     vertical-align: middle;
   }
 
-
-
   .right-description-ikea{
     margin-right: 80px;
   }
@@ -363,7 +361,7 @@ body{
     flex-direction: column;
     
 
-    height: 855px;
+    min-height: 900px;
     max-width: 1110px;
     margin: 0px auto;
     padding: 100px 0;
