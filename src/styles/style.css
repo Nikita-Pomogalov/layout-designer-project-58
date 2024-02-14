@@ -49,6 +49,19 @@ body{
     color: #2A2626;
   }
 
+  .container-header{
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+
+    
+    max-width: 1110px;
+    margin: 0px auto;
+    padding: 100px 0;
+    
+  }
+
   .container{
     position: relative;
 
@@ -132,11 +145,15 @@ body{
 
   .header-title{
     letter-spacing: 1.7px;
+    padding-bottom: 185px;
   }
   
+  .column{
+    flex-basis: 50%;
+  }
+
   .row {
     display: flex;
-    justify-content: space-between;
   }
 
   .gap{
