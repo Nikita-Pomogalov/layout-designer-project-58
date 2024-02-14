@@ -1,10 +1,18 @@
 /** CSS STYLE **/
 @font-face {
+  font-weight: 400;
   font-family: "OpenSans";
   src: url(../fonts/OpenSans.ttf);
 }
 
 @font-face {
+  font-weight: 700;
+  font-family: "OpenSans";
+  src: url(../fonts/OpenSans.ttf);
+}
+
+@font-face {
+  font-weight: 400;
   font-family: "Neucha";
   src: url(../fonts/neucha.ttf);
 }
@@ -51,6 +59,10 @@ body{
     padding: 100px 0;
   }
 
+
+  img{
+    vertical-align: middle;
+  }
 
   .main-title{
     height: 914px;
@@ -179,6 +191,8 @@ body{
     height: 525px;
     top: 55px;
     right: -270px;
+    filter: none;
+    overflow: hidden;
   }
 
 
