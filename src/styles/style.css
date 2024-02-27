@@ -18,29 +18,30 @@
 }
 
 html{
+
   font-weight: 400;
   font-family: "OpenSans", serif;
   font-size: 16px;
   line-height: 1.6em;
-  color: #2A2626;
+  color: #2a2626;
   width: 1440px;
   overflow-x: hidden;
 }
 
 *{
+
   box-sizing: border-box;
 }
 
 body{
+  
   padding: 0;
   margin: 0;
   overflow-x: hidden;
   }
-
   .color-white{
     color: #fff;
   }
-
   .color-dark{
     color: #2A2626;
   }
@@ -51,7 +52,6 @@ body{
     display: flex;
     flex-direction: column;
 
-    
     max-width: 1110px;
     margin: 0px auto;
     padding: 100px 0;
