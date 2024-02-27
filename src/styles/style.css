@@ -43,7 +43,7 @@ body {
 }
 
 .color-dark {
-  color: #2A2626;
+  color: #2a2626;
 }
 
 .container-header {
@@ -53,7 +53,7 @@ body {
   flex-direction: column;
 
   max-width: 1110px;
-  margin: 0px auto;
+  margin: 0 auto;
   padding: 100px 0;
 }
 
@@ -64,9 +64,8 @@ body {
   flex-direction: column;
   justify-content: space-between;
 
-  
   max-width: 1110px;
-  margin: 0px auto;
+  margin: 0 auto;
   padding: 100px 0;
 }
 
@@ -85,7 +84,7 @@ img {
 .back::before {
   content: "";
 
-  background-image: url(../img/background.png);
+  background-image: url("../img/background.png");
   background-repeat: no-repeat;
   background-size: cover;
   position: absolute;
@@ -98,8 +97,8 @@ img {
   filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
 }
 
-h1, 
-h2, 
+h1,
+h2,
 h3 {
   font-weight: normal;
   font-family: "Neucha", cursive;
@@ -129,6 +128,7 @@ a {
 pre {
   font-size: 16px;
   font-family: "OpenSans", sans-serif;
+  margin: 0;
 }
 
 .header-title {
@@ -160,7 +160,7 @@ pre {
 }
 
 .black {
-  color: #2A2626;
+  color: #2a2626;
 }
 
 .more-details {
@@ -182,7 +182,6 @@ pre {
 
   z-index: 2;
 }
-
 
 .more-details:hover {
   background: #ea7600;
@@ -313,7 +312,7 @@ a.card:hover {
   margin-left: 45px;
 }
 
-.explain-IKEA {
+.explain-ikea {
   font-size: 34px;
   font-family: "Neucha", cursive;
   line-height: 1.2em;
@@ -330,10 +329,6 @@ a.card:hover {
   margin-bottom: 20px;
   margin-top: 100px;
   width: 100%;
-}
-
-pre {
-  margin: 0;
 }
 
 .container-flex {
@@ -354,7 +349,7 @@ pre {
   font-family: "Neucha", cursive;
 }
 
-.explain-opt { 
+.explain-opt {
   font-size: 34px;
   font-family: "Neucha", cursive;
   line-height: 1.2em;
@@ -367,7 +362,6 @@ pre {
   display: flex;
   flex-direction: column;
   
-
   min-height: 855px;
   max-width: 1110px;
   margin: 0px auto;
