@@ -17,7 +17,7 @@
   src: url("../fonts/neucha.ttf");
 }
 
-html{
+html {
 
   font-weight: 400;
   font-family: "OpenSans", serif;
@@ -28,25 +28,25 @@ html{
   overflow-x: hidden;
 }
 
-*{
-
+* {
   box-sizing: border-box;
 }
 
-body{
-  
+body {
   padding: 0;
   margin: 0;
   overflow-x: hidden;
-  }
-.color-white{
+}
+
+.color-white {
   color: #fff;
 }
-.color-dark{
+
+.color-dark {
   color: #2A2626;
 }
 
-.container-header{
+.container-header {
   position: relative;
 
   display: flex;
@@ -57,7 +57,7 @@ body{
   padding: 100px 0;
 }
 
-.container{
+.container {
   position: relative;
 
   display: flex;
@@ -70,11 +70,11 @@ body{
   padding: 100px 0;
 }
 
-img{
+img {
   vertical-align: middle;
 }
 
-.main-title{
+.main-title {
   height: 914px;
 }
 
@@ -82,7 +82,7 @@ img{
   position: relative;
 }
 
-.back::before{
+.back::before {
   content: "";
 
   background-image: url(../img/background.png);
@@ -94,13 +94,13 @@ img{
   opacity: 0.1;
 }
 
-.page-shadow{
+.page-shadow {
   filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
 }
 
 h1, 
 h2, 
-h3{
+h3 {
   font-weight: normal;
   font-family: "Neucha", cursive;
   color: #fe8a02;
@@ -109,34 +109,34 @@ h3{
   z-index: 1;
 }
 
-h1{
+h1 {
   font-size: 4.5rem;
 }
 
-h2{
+h2 {
   font-size: 60px;
   z-index: 100;
 }
 
-h3{
+h3 {
   font-size: 34px;
 }
 
-a{
+a {
   text-decoration: none;
 }
 
-pre{
+pre {
   font-size: 16px;
   font-family: "OpenSans", sans-serif;
 }
 
-.header-title{
+.header-title {
   letter-spacing: 1.7px;
   padding-bottom: 185px;
 }
 
-.column{
+.column {
   flex-basis: 50%;
 }
 
@@ -144,26 +144,26 @@ pre{
   display: flex;
 }
 
-.gap{
+.gap {
   gap: 30px;
 }
 
-.white-back{
+.white-back {
   background-color: #f5f4f0;
   z-index: 1;
   width: 100%;
   height: 100%;
 }
 
-.marg-40{
+.marg-40 {
   margin-bottom: 40px;
 }
 
-.black{
+.black {
   color: #2A2626;
 }
 
-.more-details{
+.more-details {
   display: inline-block;
   box-sizing: border-box;
 
@@ -184,7 +184,7 @@ pre{
 }
 
 
-.more-details:hover{
+.more-details:hover {
   background: #ea7600;
 }
 
@@ -197,11 +197,11 @@ pre{
   overflow: hidden;
 }
 
-.gap-1{
+.gap-1 {
   gap: 1rem;
 }
 
-.section-video{
+.section-video {
   text-align: center;
 
   align-items: center;
@@ -209,23 +209,23 @@ pre{
   height: 914px;
 }
 
-.video{
+.video {
   filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
 }
 
-.back-video{
+.back-video {
   background-color: #fff;
 }
 
-#navigation{
+#navigation {
   background: #42413c;
 }
 
-.back-nav{
+.back-nav {
   margin-top: -100px;
 }
 
-.container-flex-for-nav{
+.container-flex-for-nav {
   list-style-type: none;
   display: flex;
   flex-flow: row wrap;
@@ -234,12 +234,12 @@ pre{
   height: 991px;
 }
 
-h2.card{
+h2.card {
   font-size: 52px;
   width: 350px;
 }
 
-a.card{
+a.card {
   display: block;
   background-color: #f5f4f0;
   text-align: left;
@@ -248,14 +248,14 @@ a.card{
   text-decoration: none;
 }
 
-a.card:hover{
+a.card:hover {
   background-color: #908d8b;
   position: relative;
   top: -15px;
   left: 10px;
 }
 
-.number-nav{
+.number-nav {
   color: #42413c;
   padding-bottom: 40px;
   font-size: 64px;
@@ -263,12 +263,12 @@ a.card:hover{
   line-height: 1em;
 }
 
-.nav-card-header{
+.nav-card-header {
   font-size: 34px;
   margin-bottom: 20px;
 }
 
-.before-header{
+.before-header {
   color: #908d8b;
   font-size: 24px;
   margin-top: 0;
@@ -276,51 +276,51 @@ a.card:hover{
   font-family: "Neucha", cursive;
 }
 
-.vert-alg{
+.vert-alg {
   vertical-align: middle;
 }
 
-.right-description-ikea{
+.right-description-ikea {
   margin-right: 80px;
 }
 
-.right-description-news{
+.right-description-news {
   margin-right: 35px;
 }
 
-.right-description-errors{
+.right-description-errors {
   margin-right: 30px;
 }
 
-.m-0{
+.m-0 {
   margin: 0;
 }
 
-.side-errors{
+.side-errors {
   margin-right: 50px;
   flex-basis: 50%;
 }
 
-.side-ikea{
+.side-ikea {
   margin-right: 20px;
 }
 
-.side-hyberb{
+.side-hyberb {
   margin-right: 10px;
 }
 
-.side-footer{
+.side-footer {
   margin-left: 45px;
 }
 
-.explain-IKEA{
+.explain-IKEA {
   font-size: 34px;
   font-family: "Neucha", cursive;
   line-height: 1.2em;
   margin-top: 30px;
 }
 
-.header-1{
+.header-1 {
   font-size: 14px;
   font-family: "OpenSans", sans-serif;
   color: #fff;
@@ -332,21 +332,21 @@ a.card:hover{
   width: 100%;
 }
 
-pre{
+pre {
   margin: 0;
 }
 
-.container-flex{
+.container-flex {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
 }
 
-.brown-back{
+.brown-back {
   background-color: #b09a81;
 }
 
-.before-header-2{
+.before-header-2 {
   color: #d7ccc0;
   font-size: 24px;
   margin-top: 0;
@@ -354,14 +354,14 @@ pre{
   font-family: "Neucha", cursive;
 }
 
-.explain-opt{
+.explain-opt { 
   font-size: 34px;
   font-family: "Neucha", cursive;
   line-height: 1.2em;
   margin-top: 30px;
 }
 
-.container-opt{
+.container-opt {
   position: relative;
 
   display: flex;
@@ -374,7 +374,7 @@ pre{
   padding: 100px 0;
 }
 
-.header-2{
+.header-2 {
   font-size: 14px;
   font-family: "OpenSans", sans-serif;
   color:  #b09a81;
@@ -386,35 +386,35 @@ pre{
   width: 100%;
 }
 
-.h-880{
+.h-880 {
   min-height: 800px;
   max-height: 880px;
 }
 
-.header-footer{
+.header-footer {
   padding: 55px;
 }
 
-.form-footer{
+.form-footer {
   padding: 40px 55px 10px 55px;
 }
 
-.back-footer{
+.back-footer {
   background-color: #fff;
 }
 
-.back-footer-2{
+.back-footer-2 {
   background-color: #42413c;
   z-index: 700;
 }
 
-.center{
+.center {
   text-align: center;
   font-size: 14px;
   margin-top: 60px;
 }
 
-.container-footer{
+.container-footer {
   position: relative;
 
   display: flex;
@@ -425,12 +425,12 @@ pre{
   margin: 0px auto;
 }
 
-.enter-footer{
+.enter-footer {
   padding: 15px;
   width: 423px;
 }
 
-.button-footer{
+.button-footer {
   display: inline-block;
   vertical-align: middle;
   width: 70px;
@@ -441,7 +441,7 @@ pre{
   cursor: pointer;
 }
 
-.button-footer::before{
+.button-footer::before {
   display: inline-block;
   content: "";
   width: 23px;
@@ -450,21 +450,21 @@ pre{
   background-repeat: no-repeat;
 }
 
-.rules{
+.rules {
   font-family: "OpenSans", sans-serif;
   font-size: 12px;
   margin-top: 0;
   color: #fff;
 }
 
-.p-100{
+.p-100 {
   padding: 100px 0;
 }
 
-.s-18{
+.s-18 {
   font-size: 18px;
 }
 
-.service{ 
-    text-decoration: underline;
+.service {
+  text-decoration: underline;
 }
