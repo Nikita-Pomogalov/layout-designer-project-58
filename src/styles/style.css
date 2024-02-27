@@ -2,21 +2,20 @@
 @font-face {
   font-weight: 400;
   font-family: "OpenSans";
-  src: url(../fonts/OpenSans.ttf);
+  src: url("../fonts/OpenSans.ttf");
 }
 
 @font-face {
   font-weight: 700;
   font-family: "OpenSans";
-  src: url(../fonts/OpenSans.ttf);
+  src: url("../fonts/OpenSans.ttf");
 }
 
 @font-face {
   font-weight: 400;
   font-family: "Neucha";
-  src: url(../fonts/neucha.ttf);
+  src: url("../fonts/neucha.ttf");
 }
-
 
 html{
   font-weight: 400;
@@ -26,20 +25,17 @@ html{
   color: #2A2626;
   width: 1440px;
   overflow-x: hidden;
-  
 }
 
 *{
   box-sizing: border-box;
 }
 
-
 body{
   padding: 0;
   margin: 0;
   overflow-x: hidden;
   }
-  
 
   .color-white{
     color: #fff;
@@ -59,7 +55,6 @@ body{
     max-width: 1110px;
     margin: 0px auto;
     padding: 100px 0;
-    
   }
 
   .container{
@@ -73,9 +68,7 @@ body{
     max-width: 1110px;
     margin: 0px auto;
     padding: 100px 0;
-    
   }
-
 
   img{
     vertical-align: middle;
@@ -85,11 +78,9 @@ body{
     height: 914px;
   }
 
-
   .back{
     position: relative;
   }
-
 
   .back::before{
     content: "";
@@ -101,7 +92,6 @@ body{
     width: 100%;
     height: 100%;
     opacity: 0.1;
-    
   }
 
   .page-shadow{
@@ -141,8 +131,6 @@ body{
     font-family: "OpenSans", sans-serif;
   }
 
-
-
   .header-title{
     letter-spacing: 1.7px;
     padding-bottom: 185px;
@@ -167,18 +155,13 @@ body{
     height: 100%;
   }
 
-
-
   .marg-40{
     margin-bottom: 40px;
   }
-
-
   
   .black{
     color: #2A2626;
   }
-
 
   .more-details{
     display: inline-block;
@@ -205,7 +188,6 @@ body{
     background: #ea7600;
   }
 
-
   .image {
     position: absolute;
     height: 525px;
@@ -214,7 +196,6 @@ body{
     filter: none;
     overflow: hidden;
   }
-
 
   .gap-1{
     gap: 1rem;
@@ -228,16 +209,13 @@ body{
     height: 914px;
   }
 
-
   .video{
     filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
   }
 
-
   .back-video{
     background-color: #fff;
   }
-
 
   #navigation{
     background: #42413c;
@@ -247,7 +225,6 @@ body{
     margin-top: -100px;
   }
 
-
   .container-flex-for-nav{
     list-style-type: none;
     display: flex;
@@ -256,8 +233,6 @@ body{
     gap: 1rem;
     height: 991px;
   }
-
-
 
   h2.card{
     font-size: 52px;
@@ -280,7 +255,6 @@ body{
     left: 10px;
   }
 
-
   .number-nav{
     color: #42413c;
     padding-bottom: 40px;
@@ -294,8 +268,6 @@ body{
     margin-bottom: 20px;
   }
 
-  
-
   .before-header{
     color: #908d8b;
     font-size: 24px;
@@ -304,12 +276,9 @@ body{
     font-family: "Neucha", cursive;
   }
 
-
   .vert-alg{
     vertical-align: middle;
   }
-
-
 
   .right-description-ikea{
     margin-right: 80px;
@@ -323,7 +292,6 @@ body{
     margin-right: 30px;
   }
   
-
   .m-0{
     margin: 0;
   }
@@ -345,7 +313,6 @@ body{
     margin-left: 45px;
   }
 
-
   .explain-IKEA{
     font-size: 34px;
     font-family: "Neucha", cursive;
@@ -365,12 +332,9 @@ body{
     width: 100%;
   }
 
-
   pre{
     margin: 0;
   }
-
-
 
   .container-flex{
     display: flex;
@@ -378,12 +342,9 @@ body{
     justify-content: space-between;
   }
 
-
-
   .brown-back{
     background-color: #b09a81;
   }
-
 
   .before-header-2{
     color: #d7ccc0;
@@ -393,15 +354,12 @@ body{
     font-family: "Neucha", cursive;
   }
 
-
   .explain-opt{
     font-size: 34px;
     font-family: "Neucha", cursive;
     line-height: 1.2em;
     margin-top: 30px;
   }
-
-
 
   .container-opt{
     position: relative;
@@ -415,7 +373,6 @@ body{
     margin: 0px auto;
     padding: 100px 0;
   }
-
 
   .header-2{
     font-size: 14px;
@@ -434,8 +391,6 @@ body{
     max-height: 880px;
   }
 
-
-
   .header-footer{
     padding: 55px;
   }
@@ -443,7 +398,6 @@ body{
   .form-footer{
     padding: 40px 55px 10px 55px;
   }
-
 
   .back-footer{
     background-color: #fff;
@@ -458,7 +412,6 @@ body{
     text-align: center;
     font-size: 14px;
     margin-top: 60px;
-
   }
 
   .container-footer{
@@ -471,7 +424,6 @@ body{
     max-width: 1110px;
     margin: 0px auto;
   }
-
 
   .enter-footer{
     padding: 15px;
